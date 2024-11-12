@@ -6,15 +6,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const responses = {
         "projects": `
             <strong>Projects:</strong><br>
-            <strong>Not Just A Weather App:</strong> A weather-based Spotify playlist generator. 
-            <a href="https://mayank8june.github.io/Not-just-a-weather-app/" target="_blank"><strong>Link</strong></a><br>
-            
-            <strong>Kitaabkhana:</strong> A web app for managing book collections.
-            <a href="https://kitaabkhana.com/" target="_blank"><strong>Link</strong></a><br>
-            
-            <strong>Notebook Converter Tool:</strong> Converts text and markdown to Jupyter Notebooks.  
-            <a href="https://notebook-converter.onrender.com/" target="_blank"><strong>Link</strong></a><br>
-            Technologies Used: Flask, Google Gemini API, nbformat
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div>
+                    <strong>Not Just A Weather App:</strong><br>
+                    <a href="https://mayank8june.github.io/Not-just-a-weather-app/" target="_blank">
+                        <img src="images/projects/weather.png" alt="Not Just A Weather App" width="200">
+                    </a><br>
+                    A weather-based Spotify playlist generator.
+                </div>
+
+                <div>
+                    <strong>Kitaabkhana (Books Manager):</strong><br>
+                    <a href="https://kitaabkhana.com/" target="_blank">
+                        <img src="images/projects/kitaabkhana.png" alt="Books Manager" width="200">
+                    </a><br>
+                    A web app for managing book collections.
+                </div>
+
+                <div>
+                    <strong>Notebook Converter Tool:</strong><br>
+                    <a href="https://notebook-converter.onrender.com/" target="_blank">
+                        <img src="images/projects/notebook.png" alt="Notebook Converter Tool" width="200">
+                    </a><br>
+                    Converts text and markdown to Jupyter Notebooks.
+                </div>
+            </div>
+            <br>Technologies Used: Flask, Google Gemini API, nbformat
         `,
         
         "experience": `
